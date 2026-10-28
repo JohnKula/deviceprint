@@ -11,7 +11,7 @@ Device fingerprinting creates a unique user identifier that persists across succ
 By capturing non-persistent telemetry attributes regarding a client's operating system, hardware configuration, graphics stack, and browser runtimes, this library enables precise identification and security auditing.
 
 ### Core Acquisition Techniques
-According to [Darkwave Technologies Device Fingerprinting Techniques](https://www.darkwavetech.com/projects/device-fingerprinting/device-fingerprinting-techniques), device fingerprinting relies on four primary vectors:
+Device fingerprinting relies on four primary vectors:
 1. **Network-Based Web Browser Fingerprinting:** Analyzes server-side HTTP headers (`User-Agent`, `Accept-Language`, encodings) without requiring client-side execution code.
 2. **Flash Fingerprinting:** Queries legacy Adobe Flash plugin capabilities (largely deprecated in modern runtimes).
 3. **JavaScript Fingerprinting:** Executes client-side routines to extract deep hardware, rendering, and environmental characteristics.
